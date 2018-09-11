@@ -1,12 +1,12 @@
 katz_deli = []
-linez = []
 
-def line(katz_deli)
+
+def line(x)
   names_numbers= [] 
-  if katz_deli.length == 0 
+  if x.length == 0 
     puts "The line is currently empty."
   else 
-    katz_deli.each.with_iterator(1) do |item, index|
+    x.each.with_iterator(1) do |item, index|
     names_numbers << "#{index}. #{item}"
     end
   puts "This line is currently: #{names_numbers}."
