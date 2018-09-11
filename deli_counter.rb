@@ -4,7 +4,6 @@ def line(katz_deli)
   names_numbers= [] 
   if katz_deli.length == 0 
     puts "The line is currently empty."
-  
   else 
     katz_deli.each.with_iterator(1) do |item, index|
     names_numbers << "#{index}. #{item}"
