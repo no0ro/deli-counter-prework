@@ -9,7 +9,7 @@ def line(more_ppl)
     more_ppl.each.with_index(1) do |item, index|
     names_numbers << "#{index}. #{item}"
     end
-  puts "This line is currently: #{names_numbers}."
+  puts "This line is currently: #{names_numbers.join ""}."
   end
 end
 
