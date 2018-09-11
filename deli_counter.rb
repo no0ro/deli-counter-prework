@@ -4,10 +4,12 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
   names_numbers= [] 
-  else katz_deli.each.with_iterator(1) do |item, index|
+  else 
+    katz_deli.each.with_iterator(1) do |item, index|
     names_numbers << "#{index}. #{item}"
   end
   puts "This line is currently: #{names_numbers}."
+  end
 end
 
 def take_a_number (katz_deli, name)
