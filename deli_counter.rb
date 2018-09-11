@@ -1,5 +1,5 @@
 katz_deli = []
-
+linez = []
 def line(katz_deli)
   names_numbers= [] 
   if katz_deli.length == 0 
