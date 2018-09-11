@@ -7,7 +7,7 @@ def line(katz_deli)
   else 
     katz_deli.each.with_iterator(1) do |item, index|
     names_numbers << "#{index}. #{item}"
-  end
+    end
   puts "This line is currently: #{names_numbers}."
   end
 end
